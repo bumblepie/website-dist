@@ -1,0 +1,161 @@
+body {
+  background-color: #201e15;
+  margin: 0;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Helvetica, sans-serif; */
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  background-color: #d0ac40;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+h1 {
+  color: #d0ac40;
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.0rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NowRegular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-content > h2 {
+  padding-top: 2em;
+  font-family: 'NowBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+li,figcaption {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+a {
+  color: #d0ac40;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:visited {
+  color: #8d7429;
+}
+
+.header-content {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.header-item {
+  color: black;
+  display: inline;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+.header-logo {
+  max-width: 5em;
+  vertical-align: bottom;
+}
+
+.blog-content {
+  max-width: 80em;
+  margin: auto;
+  background-color: #2a271c;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.blog-content > * {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.video-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-container iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border: 0;
+}
+
+.centred-content {
+  max-width: 60em;
+  margin: auto;
+  display: block;
+}
+
+.quote {
+  margin-left: 2vw;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hive-project {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.thumbnail {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  clip-path: polygon(72.5% 5%, 95% 50%, 72.5% 95%, 27.5% 95%, 5% 50%, 27.5% 5%);
+}
+
+.thumbnail-container {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 100%;
+  height: 0;
+  padding-bottom: 86.6%;
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.thumbnail-container:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background-color: #d0ac40;
+}
+
+.hive-project-title {
+  margin-left: 2vw;
+}
+.hive-project-description {
+  margin-left: 2vw;
+}
