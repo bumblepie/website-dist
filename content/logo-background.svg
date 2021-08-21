@@ -168,7 +168,7 @@
        inverse="true"
        flatten="false"
        hide_clip="false"
-       message="€CŠÿG" />
+       message="ï¿½Cï¿½ï¿½G" />
     <inkscape:path-effect
        effect="mirror_symmetry"
        start_point="97.255959,117.00752"
@@ -216,7 +216,7 @@
        inverse="true"
        flatten="false"
        hide_clip="false"
-       message="CŠÿG" />
+       message="Cï¿½ï¿½G" />
     <inkscape:path-effect
        effect="powerclip"
        id="path-effect943"
@@ -225,7 +225,7 @@
        inverse="true"
        flatten="false"
        hide_clip="false"
-       message="PAŠÿG" />
+       message="PAï¿½ï¿½G" />
     <inkscape:path-effect
        effect="mirror_symmetry"
        start_point="97.312581,122.54986"
@@ -353,7 +353,7 @@
        height="264.58334"
        width="264.58334"
        id="rect963"
-       style="fill:#d0ac40;fill-opacity:1;stroke:none;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round" />
+       style="fill:#fad02c;fill-opacity:1;stroke:none;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round" />
   </g>
   <g
      inkscape:label="Layer 1"
