@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-  color: #fad02c;
+  color: #90adc6;
   font-size: 3.0rem;
 }
 
@@ -49,7 +49,7 @@ figcaption {
 }
 
 a {
-  color: #d0ac40;
+  color: #90adc6;
 }
 
 img {
@@ -58,7 +58,7 @@ img {
 }
 
 a:visited {
-  color: #8d7429;
+  color: #333652;
 }
 
 .header-content {
