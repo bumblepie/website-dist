@@ -25,11 +25,16 @@ h3 {
   font-size: 1.6rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Helvetica, sans-serif;
 }
 
-.blog-content > h2 {
+.blog-content>h2 {
   padding-top: 1.5em;
 }
 
@@ -39,7 +44,8 @@ p {
   line-height: 1.6em;
 }
 
-li,figcaption {
+li,
+figcaption {
   font-size: 1.4rem;
   line-height: 1.6em;
 }
@@ -78,12 +84,17 @@ a:visited {
   vertical-align: bottom;
 }
 
+.content {
+  max-width: 80em;
+  margin: auto;
+}
+
 .blog-content {
   max-width: 80em;
   margin: auto;
 }
 
-.blog-content > * {
+.blog-content>* {
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -95,11 +106,11 @@ a:visited {
 }
 
 .video-container iframe {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border: 0;
 }
 
@@ -144,6 +155,73 @@ a:visited {
 .hive-project-title {
   margin-left: 2rem;
 }
+
 .hive-project-description {
   margin-left: 2rem;
+}
+
+.game-design-graveyard-banner {
+  width: 100%;
+  aspect-ratio: 10 / 4;
+  background-size: cover;
+  background-position: center;
+}
+
+.game-design-graveyard-banner-title {
+  font-family: "Chronology";
+  text-align: center;
+  color: #fff;
+  padding-top: 2rem;
+  margin-top: 0;
+}
+
+.game-design-graveyard-games {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.game-design-graveyard-game {
+  background-size: cover;
+}
+
+.game-design-graveyard-game-information {
+  padding: 1em;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 25%;
+}
+
+.game-design-graveyard-game-title {
+  text-align: center;
+}
+
+.game-design-graveyard-game-information>p {
+  font-size: 1.3rem;
+}
+
+.game-design-graveyard-game:nth-child(2)>.game-design-graveyard-game-information {
+  float: right
+}
+
+a.dark {
+  color: #c4d9eb;
+}
+
+a.dark:visited {
+  color: #ddd;
+}
+
+@font-face {
+  font-family: "Miguel";
+  src: url("fonts/Miguel.otf");
+}
+
+@font-face {
+  font-family: "Chornology";
+  src: url("fonts/Chronology.otf");
+}
+
+@font-face {
+  font-family: "Bombadier";
+  src: url("fonts/bombadier.ttf");
 }
