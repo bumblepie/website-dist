@@ -167,6 +167,17 @@ a:visited {
   background-position: center;
 }
 
+.game-design-graveyard-banner-bottom {
+  background-color: #006B6B;
+  color: #fff;
+  padding: 1rem;
+}
+
+.game-design-graveyard-banner-bottom>p {
+  margin: 0;
+  text-align: center;
+}
+
 .game-design-graveyard-banner-title {
   font-family: "Chronology";
   text-align: center;
